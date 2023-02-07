@@ -1,12 +1,11 @@
 import "./App.css";
 import Weather from "./Weather";
-import WeatherForecast from "./WeatherForecast";
 
 export default function App() {
   return (
     <div className="App">
       <Weather defaultCity="New York" />
-      <WeatherForecast />
+
       <footer>
         {" "}
         <a
